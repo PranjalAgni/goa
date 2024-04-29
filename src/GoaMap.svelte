@@ -40,7 +40,8 @@
 			lat: 15.616446680027133,
 			lng: 73.7555000088352,
 			name: 'Purple Martini',
-			description: 'Best sunset place with great ambience you need to '
+			description:
+				'Best sunset place with amazing food & ambience, we celebrated a friends birthday here and it was awesomeeee'
 		}
 	];
 
