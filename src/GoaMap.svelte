@@ -31,23 +31,23 @@
 			lat: 15.54369469526764,
 			lng: 73.81254865301062,
 			name: 'Kismoor Sangolda',
-			icon: '🍺',
+			icon: '🍔',
 			description: 'Nice place to have lunch and work at'
 		},
 		{
 			lat: 15.616446680027133,
 			lng: 73.7555000088352,
 			name: 'Thalassa',
-			icon: '🍺',
+			icon: '🥃',
 			description: 'Do you want to do crazy wild Goa party'
 		},
 		{
-			lat: 15.616446680027133,
-			lng: 73.7555000088352,
+			lat: 15.582965236568313,
+			lng: 73.73777143766999,
 			name: 'Purple Martini',
-			icon: '🍺',
+			icon: '☀️',
 			description:
-				'Best sunset place with amazing food & ambience, we celebrated a friends birthday here and it was awesomeeee'
+				'Best sunset place with amazing food & ambience, we celebrated a friends birthday here and it was awesome(x10)'
 		}
 	];
 
@@ -61,7 +61,7 @@
 			L.marker([location.lat, location.lng], {
 				icon: L.divIcon({
 					className: 'custom-marker-icon',
-					html: `<span class="emojimarker">${location.icon}</span>` // Use emoji as marker icon
+					html: `<span style="font-size:24px">${location.icon}</span>` // Use emoji as marker icon
 				})
 			})
 				.addTo(map)
@@ -82,15 +82,5 @@
 	/* Add any additional custom styles here */
 	.map {
 		height: 100vh; /* Adjust the height as needed */
-	}
-
-	.custom-marker-icon {
-		width: 60px;
-		height: 60px;
-		text-align: center;
-	}
-
-	.emojimarker {
-		font-size: 34px;
 	}
 </style>
