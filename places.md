@@ -13,3 +13,4 @@ Places
 - Rio Botique 15.507748573536096, 73.80840905485742
 - Downtown??
 - Calangute Beach 15.545428850696663, 73.76081320774267
+- Candolim Beach
